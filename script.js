@@ -12,7 +12,7 @@
 const table = document.getElementById("table");
 if(window.innerWidth > 1100){
 
-fetch('https://airlabs.co/api/v9/flights?api_key=28fa1de5-acf3-4093-9262-ca3c600330e9&bbox=49.0273953314,14.0745211117,54.8515359564,24.0299857927').then((response) => {
+fetch('https://airlabs.co/api/v9/flights?api_key=1a4cec1a-b94e-46b8-9c64-e91e26263917&bbox=49.0273953314,14.0745211117,54.8515359564,24.0299857927').then((response) => {
     return response.json()
 }).then((json) => {
     displayFlights(json);
